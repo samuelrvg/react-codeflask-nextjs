@@ -1,7 +1,7 @@
-# react-codeflask
+# react-codeflask-nextjs-typescript
 
 ```sh
-yarn add react-codeflask
+yarn add react-codeflask-nextjs-typescript
 ```
 
 ## Usage
@@ -9,7 +9,7 @@ yarn add react-codeflask
 [Demo](https://codesandbox.io/s/cool-mountain-3n6dt)
 
 ```js
-import { CodeFlaskReact } from "react-codeflask"
+import { CodeFlaskReact } from "react-codeflask-nextjs-typescript"
 
 class App extends React.Component {
   state = {
