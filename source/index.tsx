@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import CodeFlask, { options } from "codeflask";
+import CodeFlask, { CodeFlaskOptions } from "codeflasknextjs";
 
 interface Props {
   code: string;
@@ -8,7 +8,7 @@ interface Props {
   onChange?: (code: string) => void;
 }
 
-class CodeFlaskReact extends Component<Props & options> {
+class CodeFlaskReact extends Component<Props & CodeFlaskOptions> {
   static defaultProps = {
     id: "react-codeflask-root",
   };
